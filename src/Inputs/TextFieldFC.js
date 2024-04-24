@@ -17,7 +17,7 @@ const TextFieldFC = ({
 }) => {
   return (
     <div style={{ width: fullWidth ? '100%' : 'auto' }}>
-      {label && <Typography variant='body2' mb='0.5rem' color={error ? '#d32f2f' : '#000'}>{label}{required && <span style={{ color: '#e74c3c'}}> *</span>}asd</Typography>}
+      {label && <Typography variant='body2' mb='0.5rem' color={error ? '#d32f2f' : '#000'}>{label}{required && <span style={{ color: '#e74c3c'}}> *</span>}</Typography>}
       <TextField
         value={value}
         onChange={onChange}
