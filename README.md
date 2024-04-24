@@ -32,10 +32,10 @@ class Example extends Component {
 
 ## Modifying and testing this package
 
-cd ~/projects/components-fullcomm   # go into the package directory
-npm link                    # creates global link
-cd ~/projects/your-app   # go into some other package directory.
-npm link components-fullcomm              # link-install the package
+cd ~/projects/components-fullcomm   # go into the package directory<br>
+npm link                    # creates global link<br>
+cd ~/projects/your-app   # go into some other package directory.<br>
+npm link components-fullcomm              # link-install the package<br>
 
 more info at: https://docs.npmjs.com/cli/v10/commands/npm-link
 
