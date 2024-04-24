@@ -2,7 +2,6 @@ import React from 'react'
 import { DatePicker, LocalizationProvider } from '@mui/x-date-pickers';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { Box, FormControl, Tooltip, Typography } from '@mui/material';
-import CalendarTodayRoundedIcon from '@mui/icons-material/CalendarTodayRounded';
 
 const Icon = () => {
   return (
@@ -13,7 +12,7 @@ const Icon = () => {
   )
 }
 
-const DatePickerFC = ({ value, onChange, label, error = false, tooltip, fullwidth = false, sx = {}, ...props}) => {
+const FCDatePicker = ({ value, onChange, label, error = false, tooltip, fullwidth = false, sx = {}, ...props}) => {
   return (
     <div style={{ width: fullwidth ? '100%' : 'auto' }}>
       {label && 
@@ -61,4 +60,4 @@ const DatePickerFC = ({ value, onChange, label, error = false, tooltip, fullwidt
   )
 }
 
-export default DatePickerFC
+export default FCDatePicker

@@ -3,7 +3,7 @@ import React from 'react'
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
-const PaginationFC = ({ sx, ...props }) => {
+const FCPagination = ({ sx, ...props }) => {
   return (
     <Box display="flex" justifyContent="center" alignItems="center">
       <Pagination
@@ -39,4 +39,4 @@ const PaginationFC = ({ sx, ...props }) => {
   )
 }
 
-export default PaginationFC
+export default FCPagination

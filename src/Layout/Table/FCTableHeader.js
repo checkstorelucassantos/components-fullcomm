@@ -1,7 +1,7 @@
 import { TableHead } from '@mui/material'
 import React from 'react'
 
-const TableHeaderFC = ({children, sx, ...props}) => {
+const FCTableHeader = ({children, sx, ...props}) => {
   return (
     <TableHead
       sx={{
@@ -16,4 +16,4 @@ const TableHeaderFC = ({children, sx, ...props}) => {
   )
 }
 
-export default TableHeaderFC
+export default FCTableHeader

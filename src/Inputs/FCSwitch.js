@@ -13,7 +13,7 @@ const Icon = () => {
   return svgUrl;
 }
 
-const SwitchFC = styled((props) => (
+const FCSwitch = styled((props) => (
   <Switch focusVisibleClassName=".Mui-focusVisible" disableRipple {...props} />
 ))(({ theme }) => ({
   width: 42,
@@ -73,4 +73,4 @@ const SwitchFC = styled((props) => (
   },
 }));
 
-export default SwitchFC;
+export default FCSwitch;

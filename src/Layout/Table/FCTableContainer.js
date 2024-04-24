@@ -1,7 +1,7 @@
 import { Paper, TableContainer } from '@mui/material'
 import React from 'react'
 
-const TableContainerFC = ({children, border, sx, ...props}) => {
+const FCTableContainer = ({children, border, sx, ...props}) => {
   return (
     <TableContainer 
       component={Paper} 
@@ -19,4 +19,4 @@ const TableContainerFC = ({children, border, sx, ...props}) => {
   )
 }
 
-export default TableContainerFC
+export default FCTableContainer

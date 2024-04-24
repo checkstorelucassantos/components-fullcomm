@@ -2,7 +2,7 @@ import { Box, IconButton, Typography } from '@mui/material'
 import React from 'react'
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 
-const ModalHeaderFC = ({title, onClick}) => {
+const FCModalHeader = ({title, onClick}) => {
   return (
     <Box
     sx={{
@@ -29,4 +29,4 @@ const ModalHeaderFC = ({title, onClick}) => {
   )
 }
 
-export default ModalHeaderFC
+export default FCModalHeader

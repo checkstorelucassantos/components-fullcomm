@@ -1,7 +1,7 @@
 import { Card } from '@mui/material'
 import React from 'react'
 
-const CardFC = ({ children, sx = {}, ...props }) => {
+const FCCard = ({ children, sx = {}, ...props }) => {
   return (
     <Card 
       {...props}
@@ -16,4 +16,4 @@ const CardFC = ({ children, sx = {}, ...props }) => {
   )
 }
 
-export default CardFC
+export default FCCard

@@ -1,7 +1,7 @@
 import { Tabs } from '@mui/material'
 import React from 'react'
 
-const TabsFC = ({ children, ...props }) => {
+const FCTabs = ({ children, ...props }) => {
   return (
     <Tabs
       variant='scrollable'
@@ -27,4 +27,4 @@ const TabsFC = ({ children, ...props }) => {
   )
 }
 
-export default TabsFC
+export default FCTabs

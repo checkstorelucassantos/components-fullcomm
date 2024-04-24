@@ -5,12 +5,10 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import Icon from '@mui/material/Icon';
 
-const DropdownButton = ({
+const FCDropdownButton = ({
     items,
     itemClickHandlers,
-    i,
     sx
   }) => {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -64,4 +62,4 @@ const DropdownButton = ({
   );
 }
 
-export default DropdownButton;
+export default FCDropdownButton;

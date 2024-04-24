@@ -1,6 +1,6 @@
 import { Checkbox, FormControlLabel } from '@mui/material'
 import React from 'react'
-const CheckboxFC = ({
+const FCCheckbox = ({
   label,
   checked,
   ...props
@@ -32,4 +32,4 @@ const CheckboxFC = ({
   )
 }
 
-export default CheckboxFC
+export default FCCheckbox

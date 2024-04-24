@@ -1,7 +1,7 @@
 import { Chip } from '@mui/material'
 import React from 'react'
 
-const ChipFC = ({sx, ...props}) => {
+const FCChip = ({sx, ...props}) => {
   return (
     <Chip
       size='small'
@@ -21,4 +21,4 @@ const ChipFC = ({sx, ...props}) => {
   )
 }
 
-export default ChipFC
+export default FCChip

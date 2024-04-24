@@ -1,7 +1,7 @@
 import { Autocomplete, TextField, Typography } from '@mui/material';
 import React from 'react'
 
-const AutocompleteFC = ({
+const FCAutocomplete = ({
   getFieldProps ={},
   onChange,
   values,
@@ -54,4 +54,4 @@ const AutocompleteFC = ({
   )
 }
 
-export default AutocompleteFC
+export default FCAutocomplete

@@ -3,7 +3,7 @@ import { LocalizationProvider, TimePicker } from '@mui/x-date-pickers';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { Box, Tooltip, Typography } from '@mui/material';
 
-const TimePickerFC = ({ value, onChange, label, error = false, tooltip, fullWidth}) => {
+const FCTimePicker = ({ value, onChange, label, error = false, tooltip, fullWidth}) => {
   return (
     <div style={{ width: '100%' }}>
       {label && 
@@ -43,4 +43,4 @@ const TimePickerFC = ({ value, onChange, label, error = false, tooltip, fullWidt
   )
 }
 
-export default TimePickerFC
+export default FCTimePicker

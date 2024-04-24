@@ -2,7 +2,7 @@ import { Typography } from '@mui/material'
 import { MuiTelInput } from 'mui-tel-input'
 import React from 'react'
 
-const TelInputFC = ({ 
+const FCTelInput = ({ 
   label, 
   lang, 
   value, 
@@ -35,4 +35,4 @@ const TelInputFC = ({
   )
 }
 
-export default TelInputFC
+export default FCTelInput

@@ -1,7 +1,7 @@
 import { FormControl, FormHelperText, MenuItem, Select, Typography } from '@mui/material';
 import React from 'react'
 
-const SelectFC = ({
+const FCSelect = ({
   label,
   fullWidth = false,
   options,
@@ -33,12 +33,12 @@ const SelectFC = ({
           }}
         >
           {
-            options?.map(({key, value, img}) => (
-              <MenuItem key={key} value={key}>
+            options?.map(({value, label, img}) => (
+              <MenuItem key={value} value={value}>
                 {
-                  img && <img src={img} alt={value} style={{ width: "20px", height: "20px", marginRight: '0.5rem' }} />
+                  img && <img src={img} alt={label} style={{ width: "20px", height: "20px", marginRight: '0.5rem' }} />
                 }
-                {value}
+                {label}
               </MenuItem>
             ))
           }
@@ -51,4 +51,4 @@ const SelectFC = ({
   )
 }
 
-export default SelectFC
+export default FCSelect

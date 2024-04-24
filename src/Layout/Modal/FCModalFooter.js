@@ -2,7 +2,7 @@ import { LoadingButton } from '@mui/lab'
 import { Box, Button } from '@mui/material'
 import React from 'react'
 
-const ModalFooterFC = ({
+const FCModalFooter = ({
   actionLabel,
   cancelLabel,
   handleAction,
@@ -21,4 +21,4 @@ const ModalFooterFC = ({
   )
 }
 
-export default ModalFooterFC
+export default FCModalFooter

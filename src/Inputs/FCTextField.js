@@ -1,7 +1,7 @@
 import { InputAdornment, TextField, Typography } from '@mui/material'
 import React from 'react'
 
-const TextFieldFC = ({ 
+const FCTextField = ({ 
   label, 
   value, 
   onChange, 
@@ -53,4 +53,4 @@ const TextFieldFC = ({
   )
 }
 
-export default TextFieldFC
+export default FCTextField
