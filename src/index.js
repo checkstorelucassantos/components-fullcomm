@@ -1,5 +1,5 @@
-export { default as FCReturnButt } from './Button/FCReturnButton'
-export { default as FCDropdownButt } from './Button/FCDropdownButton'
+export { default as FCReturnButton } from './Button/FCReturnButton'
+export { default as FCDropdownButton } from './Button/FCDropdownButton'
 export { default as FCAutocomplete } from './Inputs/FCAutocomplete'
 export { default as FCCheckbox } from './Inputs/FCCheckbox'
 export { default as FCDatePicker } from './Inputs/FCDatePicker'
