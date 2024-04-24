@@ -4,7 +4,7 @@
 
 [![NPM](https://img.shields.io/npm/v/components-fullcomm.svg)](https://www.npmjs.com/package/components-fullcomm) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-## Install component and it's dev dependencies
+## Install component and its dev dependencies
 
 ```bash
 npm install --save components-fullcomm
