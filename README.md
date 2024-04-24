@@ -23,7 +23,8 @@ class Example extends Component {
       label="My Label"
       onChange={handleChange}
       options={[
-      value={0} label="option 1" img={link/to/image} (optional)
+        {value={0} label="option 1" img={link/to/image} (optional)}
+      ]}
      />
   }
 }
