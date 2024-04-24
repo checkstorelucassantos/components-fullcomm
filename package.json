@@ -24,10 +24,10 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0",
-    "@mui/lab": "^5.0.0-alpha.170",
-    "@mui/material": "^5.15.15",
-    "mui-tel-input": "^5.1.2"
+    "react": ">=16.0.0",
+    "@mui/lab": ">=5.0.0-alpha.170",
+    "@mui/material": ">=5.15.15",
+    "mui-tel-input": ">=5.1.2"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
