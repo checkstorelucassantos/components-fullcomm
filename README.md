@@ -8,6 +8,7 @@
 
 ```bash
 npm install --save components-fullcomm
+npm i @mui/x-date-pickers @mui/icons-material @mui/material dayjs
 ```
 
 ## Usage
