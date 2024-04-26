@@ -14,8 +14,7 @@ const FCPagination = ({ sx, ...props }) => {
         shape="rounded" 
         {...props}
         renderItem={(item) => {
-          
-          return (item.type === 'previous' || item.type === 'next') ? (
+          return (item.type === 'previous' || item.type === 'next') && (
             <PaginationItem
               sx={{
                 margin: '0',
@@ -31,8 +30,6 @@ const FCPagination = ({ sx, ...props }) => {
               slots={{ previous: ArrowBackIosNewIcon, next: ArrowForwardIosIcon }}
               {...item}
             />
-          ) : (
-            <></>
           )}}
       />
     </Box>
